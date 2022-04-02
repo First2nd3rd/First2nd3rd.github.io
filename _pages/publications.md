@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
+sort: 2
 description: publication in 
 peer-reviewed: [2021, 2007, 1950]
 non-peer-reviewed: [1905]

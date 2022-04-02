@@ -45,7 +45,10 @@
               {%- endif %}
 
               <!-- Other pages -->
-              {%- assign sorted_pages = site.pages | sort: "title" -%}
+                <!-- sort with title-->
+              <!-- {%- assign sorted_pages = site.pages | sort: "title" -%} -->
+              <!-- sort with new tag "sort" in every page-->
+              {%- assign sorted_pages = site.pages | sort: "sort" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
