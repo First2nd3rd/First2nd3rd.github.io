@@ -2,20 +2,22 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: Shitao.JPG
   address: >
-    <p>555 your office number</p>
-    <p>12223 your address street</p>
-    <p>Yo22r City, State 12345</p>
+    <p>E-mail: fst[at]iis[dot]org</p>
+  # <p>12223 your address street</p>
+  # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+I am a Ph.D. Student at [the Univerity of Tokyo](https://www.u-tokyo.ac.jp/en/) working with [Prof. Koji Yatani](https://iis-lab.org/member/koji-yatani/). 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
