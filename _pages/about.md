@@ -14,10 +14,10 @@ profile:
   # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a master student in [Interactive Intelligent Systems Lab](https://iis-lab.org) at [the Univerity of Tokyo](https://www.u-tokyo.ac.jp/en/), supervised by [Prof. Koji Yatani](https://iis-lab.org/member/koji-yatani/). My research interests lie in developing new techniques and tools to make AR/VR interface more useful, more effective, and more interactive, and examining users' perception for promoting virtual worlds' sociability.
+Hi! I am a master student in [Interactive Intelligent Systems Lab](https://iis-lab.org) at [the Univerity of Tokyo](https://www.u-tokyo.ac.jp/en/), supervised by [Prof. Koji Yatani](https://iis-lab.org/member/koji-yatani/). My research interests lie in developing new techniques and tools to make AR/VR interface more useful, more effective, and more interactive, and examining users' perception for promoting virtual worlds' sociability.
 
 I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/english/) in 2020 under the co-supervision of the [Prof. Hongsheng Chen](https://scholar.google.com/citations?user=w1p_Wf0AAAAJ&hl=zh-CN) and [Prof. Zhaowei Liu (UCSD)](https://www.zhaowei.us/team.php), learning about fast superresolution imaging reconstruction method for fluorescent microscopy.
