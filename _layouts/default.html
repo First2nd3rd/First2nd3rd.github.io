@@ -2,8 +2,7 @@
 layout: parse
 ---
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
+<html lang="{{ site.lang }}" style="height: 100%;">
   <!-- Head -->
   <head>
   {%- if page.redirect -%}
@@ -26,7 +25,12 @@ layout: parse
     <!-- Footer -->
     <!--{%- include footer.html %} -->
     
-    
+    <div style="text-align: center;" class="footer_fst">
+      <hr>
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.last_name }}.
+        <p> </p>
+    </div>
+
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
@@ -37,5 +41,4 @@ layout: parse
   </body>
   
   <!-- used to be in the body-->
-  {%- include footer.html %}
 </html>
