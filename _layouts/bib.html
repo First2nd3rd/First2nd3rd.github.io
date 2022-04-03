@@ -6,9 +6,9 @@
       <div class="row">
         <div class="col-sm-3">
           {% if entry.img %}
-            <img class="img-fluid" src="{{ site.data.pubimg[entry.img] | prepend: '/assets/pubimg/' | relative_url }}">
+            <img class="img-fluid" src="{{ site.data.img[entry.img] | prepend: '/assets/img/' | relative_url }}">
           {% endif %}
-          </div>
+        </div>
         <!--
           <div class="col-sm-2 abbr">
         {%- if entry.abbr -%}
@@ -84,17 +84,21 @@
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+            <!--{%- if entry.sort_type == "fullpaper" -%}
+              {%- capture entryconf_abbr -%}<em>{{entry.conf_abbr}}</em>{%- endcapture -%}
+            {%- endif -%} -->
           {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
-            {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
+            {%- capture entryyear -%}{{ " " }}{{entry.year}}  <b style="color: brown;">({{entry.conf_abbr}})</b> {%- endcapture -%}
           {%- endif -%}
           {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
+          
         {%- endif %}
         
           <!-- Links/Buttons -->
@@ -109,7 +113,8 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
           {%- if entry.url %}
-            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">URL</a>
+            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" style="color: blue;">URL</a>
+            <!--<button type="button" class="btn btn-outline-secondary btn-sm ">URL</button>-->
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}

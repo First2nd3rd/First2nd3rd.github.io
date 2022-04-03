@@ -3,9 +3,9 @@ layout: page
 permalink: /publications/
 title: Publications
 sort: 2
-description: publication in 
-peer-reviewed: [2021, 2007, 1950]
-non-peer-reviewed: [1905]
+description: 
+peer-reviewed: [2021]
+non-peer-reviewed: [2021]
 nav: true
 ---
 <!-- _pages/publications.md -->
@@ -17,10 +17,10 @@ nav: true
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<h2>Proposed Workshop</h2>
+<h2>Workshop Proposal</h2>
 {%- for y in page.non-peer-reviewed %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f workshop -q @*[year={{y}}]* %}
 {% endfor %}
 
 
