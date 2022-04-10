@@ -17,7 +17,7 @@ nav: true
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<h2>Workshop Proposal</h2>
+<h2>Workshop, Position Papers & Other</h2>
 {%- for y in page.non-peer-reviewed %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f workshop -q @*[year={{y}}]* %}
