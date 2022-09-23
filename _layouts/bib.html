@@ -49,29 +49,29 @@
             
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.last}}, {{author.first}}</em>
+                <em>{{author.first}} {{author.last}}</em>
               {%- else -%}
-                {{author.last}}, {{author.first}}
+                {{author.first}} {{author.last}}
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
                 {% if author_is_self %}
-                  <em>{{author.last}}, {{author.first}}</em>,&nbsp;
+                  <em>{{author.first}} {{author.last}}</em>,&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,&nbsp;
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
                   {%- else -%}
-                    {{author.last}}, {{author.first}},&nbsp;
+                    {{author.first}} {{author.last}},&nbsp;
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
                 {% if author_is_self -%}
-                  and <em>{{author.last}}, {{author.first}}</em>
+                  and <em>{{author.first}} {{author.last}}</em>
                 {% else -%}
                   {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
+                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                   {% else -%}
-                    and {{author.last}}, {{author.first}}
+                    and {{author.first}} {{author.last}}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
@@ -93,7 +93,7 @@
           {%- endif -%}
           {%- if entry.year -%}
               {%- if entry.conf_abbr -%}
-                {%- capture entryyear -%}{{ " " }}{{entry.year}}  <b style="color: brown;">({{entry.conf_abbr}})</b> {%- endcapture -%}
+                {%- capture entryyear -%}{{ " " }}{{entry.year}}  <b style="color: rgb(11, 116, 37);">({{entry.conf_abbr}})</b> {%- endcapture -%}
               {%- else -%}
                 {%- capture entryyear -%}{{ " " }}{{entry.year}} {%- endcapture -%}
               {%- endif -%}
@@ -117,7 +117,7 @@
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
           {%- if entry.url %}
-            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" style="color: blue;">URL</a>
+            <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button" style="color: rgb(200, 40, 245);">URL</a>
             <!--<button type="button" class="btn btn-outline-secondary btn-sm ">URL</button>-->
           {%- endif %}
           {%- if entry.pdf %}
