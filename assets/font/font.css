@@ -1,0 +1,78 @@
+/******************************************************************************
+ * Font
+ ******************************************************************************/
+
+/*$linux-font-path: "../assets/font" !default;
+*/
+
+ @font-face {
+    font-family: 'linux_biolinum_oregular';
+    src: url('linbiolinum_r-webfont.woff2') format('woff2'),
+         url('linbiolinum_r-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'linux_biolinum_obold';
+    src: url('linbiolinum_rb-webfont.woff2') format('woff2'),
+         url('linbiolinum_rb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'linux_biolinum_oitalic';
+    src: url('linbiolinum_ri-webfont.woff2') format('woff2'),
+         url('linbiolinum_ri-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+     font-family: 'linux_libertine_oregular';
+     src: url('linlibertine_r-webfont.woff2') format('woff2'),
+          url('linlibertine_r-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+ }
+ 
+ 
+ 
+ 
+ @font-face {
+     font-family: 'linux_libertine_oitalic';
+     src: url('linlibertine_ri-webfont.woff2') format('woff2'),
+          url('linlibertine_ri-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+ }
+ 
+ 
+ 
+ 
+ @font-face {
+     font-family: 'linux_libertine_osemibold';
+     src: url('linlibertine_rz-webfont.woff2') format('woff2'),
+          url('linlibertine_rz-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+ }
+ 
+ 
+ 
+ 
+ @font-face {
+     font-family: 'linux_libertine_oSBdIt';
+     src: url('linlibertine_rzi-webfont.woff2') format('woff2'),
+          url('linlibertine_rzi-webfont.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+ 
+ }

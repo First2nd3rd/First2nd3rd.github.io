@@ -5,8 +5,7 @@ title: Publications
 sort: 2
 description: 
 full-papers: [2022]
-short-papers: [2022]
-others: [2021]
+short-papers: [2022, 2021]
 nav: true
 ---
 <!-- _pages/publications.md -->
@@ -18,16 +17,10 @@ nav: true
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<h2>Demo & Poster </h2>
+<h2>Demo & Poster & Workshop & Other </h2>
 {%- for y in page.short-papers %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f short -q @*[year={{y}}]* %}
-{% endfor %}
-
-<h2>Workshop, Position Papers & Other</h2>
-{%- for y in page.others %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f workshop -q @*[year={{y}}]* %}
 {% endfor %}
 
 

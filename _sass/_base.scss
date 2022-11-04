@@ -126,6 +126,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-family: 'linux_biolinum_oregular';
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -419,6 +420,7 @@ footer.sticky-bottom {
     }
   }
   h2.year {
+    font-family: 'linux_libertine_oregular';
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
@@ -454,9 +456,11 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
+        font-family: 'linux_biolinum_obold';
+        font-size: larger;
       }
       .author {
+        font-family: 'linux_libertine_oregular';
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
@@ -470,6 +474,7 @@ footer.sticky-bottom {
         }
       }
       .links {
+        font-family: 'linux_biolinum_obold';
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -484,6 +489,7 @@ footer.sticky-bottom {
         }
       }
       .hidden {
+        font-family: 'linux_libertine_oregular';
         font-size: 0.875rem;
         max-height: 0px;
         overflow: hidden;
@@ -505,6 +511,7 @@ footer.sticky-bottom {
         }
       }
       .hidden.open {
+        font-family: 'linux_libertine_oregular';
         max-height: 100em;
         transition-property: 0.15s ease;
         -moz-transition: 0.15s ease;
