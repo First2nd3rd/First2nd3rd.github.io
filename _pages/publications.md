@@ -4,14 +4,14 @@ permalink: /publications/
 title: Publications
 sort: 2
 description: 
-full-papers: [2022]
+full-papers: [2023]
 short-papers: [2022, 2021]
 nav: true
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<h2>Full Paper</h2>
+<h2>Paper</h2>
 {%- for y in page.full-papers %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}

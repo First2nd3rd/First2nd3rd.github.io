@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-9-21 16:11:00+0900
+date: 2023-2-26 16:11:00+0900
 inline: true
 ---
 
-I received the UTokyo Doctoral Fellowship. 
+Our paper about "Sense of Inclusion in VR" was accepted to CHI 2023 Late Breakig Work.

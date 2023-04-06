@@ -93,10 +93,13 @@
           {%- endif -%}
           {%- if entry.year -%}
               {%- if entry.conf_abbr -%}
-                {%- capture entryyear -%}<span style=" font-family: 'linux_biolinum_oregular';">{{ " " }}{{entry.year}}   <b style="color: rgb(160, 107, 198); ">({{entry.conf_abbr}})</b></span> {%- endcapture -%}
+                {%- capture entryyear -%}<span style=" font-family: 'linux_biolinum_oregular';">{{ " " }}{{entry.year}}   <b style="color: rgb(170, 102, 204); ">({{entry.conf_abbr}})</b></span> {%- endcapture -%}
               {%- else -%}
                 {%- capture entryyear -%}<span style="font-family: 'linux_biolinum_oregular';">{{ " " }}{{entry.year}}  </span> {%- endcapture -%}
               {%- endif -%}
+          {%- endif -%}
+          {%- if entry.award -%}
+                {%- capture entryyear -%}<span style=" font-family: 'linux_biolinum_oregular';">{{ " " }}{{entry.year}}  <b style="color: rgb(170, 102, 204); ">({{entry.conf_abbr}})</b>  <b style="color: rgb(255, 53, 71); ">{{entry.award}}</b></span> {%- endcapture -%}
           {%- endif -%}
           {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">

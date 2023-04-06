@@ -18,8 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Greeting! I am a 1st year Ph.D. student in [Interactive Intelligent Systems Lab](https://iis-lab.org) at [the Univerity of Tokyo](https://www.u-tokyo.ac.jp/en/), supervised by [Prof. Koji Yatani](https://iis-lab.org/member/koji-yatani/). I believe that the virtual reality should not just replicate the real world, but create new sensory experiences. My research interests lie in developing new tools to make AR/VR interface more useful, more effective, and more interactive, and examining users' perception for promoting virtual worlds' sociability.
+Greeting! I am a 1st year Ph.D. student in [Interactive Intelligent Systems Lab](https://iis-lab.org) at [the Univerity of Tokyo](https://www.u-tokyo.ac.jp/en/), supervised by [Prof. Koji Yatani](https://iis-lab.org/member/koji-yatani/). 
 
-I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/english/) in 2020 under the supervision of the [Prof. Hongsheng Chen](https://scholar.google.com/citations?user=w1p_Wf0AAAAJ&hl=zh-CN) and [Prof. Zhaowei Liu (UCSD)](https://www.zhaowei.us/team.php), learning about fast superresolution imaging reconstruction method for fluorescent microscopy.
+My research interests lie in Human-Computer Interaction (HCI), especially in human-AI interaction, mobile sensing, and interactive graphics. Through the lens of comprehending user perception and cognition, I aspire to craft innovative interaction techniques that elevate the human performance and enrich the experiential journey. 
 
-You can find my [cv](/assets/pdf/pdf) here!
+I received my bachelor’s degree from [Zhejiang University](https://www.zju.edu.cn/english/) in 2020 under the supervision of the Prof. Hongsheng Chen and [Prof. Zhaowei Liu (UCSD)](https://www.zhaowei.us/team.php).
