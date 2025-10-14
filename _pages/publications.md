@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 sort: 2
 description: 
-full-papers: [2024, 2023]
+full-papers: [2025,2024, 2023]
 short-papers: [2023, 2022, 2021]
 nav: true
 ---
